@@ -1,0 +1,62 @@
+[
+  {
+    "ContainingType": "zoo_backend_vs.Controllers.FacilityController",
+    "Method": "GetFoodstands",
+    "RelativePath": "Facility/foodstand",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[zoo_backend_vs.Models.ServiceSpot, zoo_backend_vs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "zoo_backend_vs.Controllers.FacilityController",
+    "Method": "GetGiftShops",
+    "RelativePath": "Facility/giftshop",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[zoo_backend_vs.Models.ServiceSpot, zoo_backend_vs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "zoo_backend_vs.Controllers.FacilityController",
+    "Method": "GetGuestServices",
+    "RelativePath": "Facility/guestservices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[zoo_backend_vs.Models.ServiceSpot, zoo_backend_vs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

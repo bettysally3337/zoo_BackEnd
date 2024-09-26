@@ -1,12 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using zoo_backend_vs.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 注册 HttpClient
-builder.Services.AddHttpClient();
-
-// 跨域存取設定
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("CorsPolicy",
@@ -16,26 +12,16 @@ builder.Services.AddCors(options =>
         });
 });
 
-// 其他服务注册
-builder.Services.AddControllers();
-
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<ZooDBContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"
+    //"Server=172.19.115.163;User ID=paul2024;Password=Qaz123;Data Source=myTeamProject;"
+    )));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))); ;
 
 var app = builder.Build();
-
-app.UseSwagger();
-app.UseSwaggerUI();
-//app.UseSwaggerUI(options => // UseSwaggerUI is called only in Development.
-//{
-//    options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
-//    options.RoutePrefix = string.Empty;
-//});
+app.UseCors("CorsPolicy");
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -50,13 +36,12 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseCors("CorsPolicy");
-
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=serviceSpot}/{action=Index}/{id?}");
+app.UseEndpoints(endpoints => { _ = endpoints.MapControllers(); });
 
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{controller=Animal}/{action}/");
 
-app.Run();
+app.Run("https://*:5000");
