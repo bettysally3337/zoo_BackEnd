@@ -7,7 +7,7 @@ using System.Security.Cryptography.Xml;
 using System.Xml.Linq;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
-namespace MyBackend.Models
+namespace zoo_backend_vs.Models
 {
     [Table("plants")]
     public class Plants

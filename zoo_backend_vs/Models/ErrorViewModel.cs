@@ -1,4 +1,4 @@
-namespace MyBackend.Models
+namespace zoo_backend_vs.Models
 {
     public class ErrorViewModel
     {

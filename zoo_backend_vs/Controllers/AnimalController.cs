@@ -1,15 +1,15 @@
 // Controllers/AnimalController.cs
 
-using MyBackend.Models;
+using zoo_backend_vs.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
-using MyBackend.Data;
+using zoo_backend_vs.Data;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
-namespace MyBackend.Controllers
+namespace zoo_backend_vs.Controllers
 {
     //[Route("api/[controller]/[action]")]
     //[ApiController]

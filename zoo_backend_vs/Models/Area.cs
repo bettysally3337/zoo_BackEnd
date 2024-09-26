@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Security.Cryptography.Xml;
 using System.Xml.Linq;
 
-namespace MyBackend.Models
+namespace zoo_backend_vs.Models
 {
     [Table("area")]
     public class Area

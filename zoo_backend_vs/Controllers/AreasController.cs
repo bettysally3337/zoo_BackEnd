@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using MyBackend.Data;
-using MyBackend.Models;
+using zoo_backend_vs.Data;
+using zoo_backend_vs.Models;
 
-namespace MyBackend.Controllers
+namespace zoo_backend_vs.Controllers
 {
     public class AreasController : Controller
     {

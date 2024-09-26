@@ -6,7 +6,7 @@ using System.Text;
 using Microsoft.EntityFrameworkCore;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
-namespace MyBackend.Models
+namespace zoo_backend_vs.Models
 {
     // [EntityTypeConfiguration(typeof(AnimalsConfiguration))]
     [Table("animals")]

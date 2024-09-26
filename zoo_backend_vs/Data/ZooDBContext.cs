@@ -1,10 +1,11 @@
 // Models/SampleDBContext.cs
 
 using Microsoft.EntityFrameworkCore;
-using MyBackend.Models;
+using zoo_backend_vs.Models;
+using zoo_backend_vs.Models;
 
 
-namespace MyBackend.Data
+namespace zoo_backend_vs.Data
 {
     public partial class ZooDBContext : DbContext
     {
@@ -27,5 +28,7 @@ namespace MyBackend.Data
         public virtual DbSet<Area> Area { get; set; }
 
         public virtual DbSet<Plants> Plant { get; set; }
+
+        public virtual DbSet<ServiceSpot> serviceSpot { get; set; }
     }
 }

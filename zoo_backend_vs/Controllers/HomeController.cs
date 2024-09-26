@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using MyBackend.Models;
+using zoo_backend_vs.Models;
 
-namespace MyBackend.Controllers
+namespace zoo_backend_vs.Controllers
 {
     public class HomeController : Controller
     {
