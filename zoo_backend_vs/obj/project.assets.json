@@ -5701,11 +5701,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\zoo_backend_vs\\zoo_backend_vs\\zoo_backend_vs.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\zoo_BackEnd\\zoo_backend_vs\\zoo_backend_vs.csproj",
       "projectName": "zoo_backend_vs",
-      "projectPath": "C:\\Users\\User\\Desktop\\zoo_backend_vs\\zoo_backend_vs\\zoo_backend_vs.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\zoo_BackEnd\\zoo_backend_vs\\zoo_backend_vs.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\zoo_backend_vs\\zoo_backend_vs\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\zoo_BackEnd\\zoo_backend_vs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
