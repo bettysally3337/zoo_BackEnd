@@ -1,0 +1,239 @@
+﻿@model IEnumerable<MyBackend.Models.Plants>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Name_Ch)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Summary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Keywords)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_AlsoKnown)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Geo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Location)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Name_En)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Name_Latin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Family)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Genus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Brief)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Feature)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Function_Application)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Code)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Pic01_ALT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Pic01_URL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Pic02_ALT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Pic02_URL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Pic03_ALT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Pic03_URL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Pic04_ALT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Pic04_URL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_pdf01_ALT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_pdf01_URL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_pdf02_ALT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_pdf02_URL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Voice01_ALT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Voice01_URL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Voice02_ALT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Voice02_URL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Voice03_ALT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Voice03_URL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Vedio_URL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_Update)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.F_CID)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Name_Ch)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Summary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Keywords)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_AlsoKnown)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Geo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Location)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Name_En)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Name_Latin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Family)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Genus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Brief)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Feature)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Function_Application)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Code)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Pic01_ALT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Pic01_URL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Pic02_ALT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Pic02_URL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Pic03_ALT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Pic03_URL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Pic04_ALT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Pic04_URL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_pdf01_ALT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_pdf01_URL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_pdf02_ALT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_pdf02_URL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Voice01_ALT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Voice01_URL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Voice02_ALT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Voice02_URL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Voice03_ALT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Voice03_URL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Vedio_URL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_Update)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.F_CID)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.idx">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.idx">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.idx">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -5696,19 +5696,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\zoo_backend_vs\\zoo_backend_vs\\zoo_backend_vs.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\test112\\zoo_BackEnd\\zoo_backend_vs\\zoo_backend_vs.csproj",
       "projectName": "zoo_backend_vs",
-      "projectPath": "C:\\Users\\User\\Desktop\\zoo_backend_vs\\zoo_backend_vs\\zoo_backend_vs.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\test112\\zoo_BackEnd\\zoo_backend_vs\\zoo_backend_vs.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\zoo_backend_vs\\zoo_backend_vs\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\test112\\zoo_BackEnd\\zoo_backend_vs\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

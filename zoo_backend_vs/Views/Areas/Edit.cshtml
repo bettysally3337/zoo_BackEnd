@@ -1,0 +1,64 @@
+﻿@model MyBackend.Models.Area
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Area</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="E_no" />
+            <div class="form-group">
+                <label asp-for="E_Category" class="control-label"></label>
+                <input asp-for="E_Category" class="form-control" />
+                <span asp-validation-for="E_Category" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="E_Name" class="control-label"></label>
+                <input asp-for="E_Name" class="form-control" />
+                <span asp-validation-for="E_Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="E_Pic_URL" class="control-label"></label>
+                <input asp-for="E_Pic_URL" class="form-control" />
+                <span asp-validation-for="E_Pic_URL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="E_Info" class="control-label"></label>
+                <input asp-for="E_Info" class="form-control" />
+                <span asp-validation-for="E_Info" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="E_Memo" class="control-label"></label>
+                <input asp-for="E_Memo" class="form-control" />
+                <span asp-validation-for="E_Memo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="E_Geo" class="control-label"></label>
+                <input asp-for="E_Geo" class="form-control" />
+                <span asp-validation-for="E_Geo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="E_URL" class="control-label"></label>
+                <input asp-for="E_URL" class="form-control" />
+                <span asp-validation-for="E_URL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
