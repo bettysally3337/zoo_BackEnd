@@ -3,6 +3,8 @@ using zoo_backend_vs.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddHttpClient();
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("CorsPolicy",
