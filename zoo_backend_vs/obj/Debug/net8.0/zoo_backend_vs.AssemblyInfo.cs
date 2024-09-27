@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("zoo_backend_vs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+308808b29dfb95288bcfc49b973e71c942b6ac34")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bef7d821b6182736456dda2848eb9473fc58c3c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("zoo_backend_vs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("zoo_backend_vs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
