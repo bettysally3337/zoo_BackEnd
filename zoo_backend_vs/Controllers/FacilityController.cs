@@ -10,9 +10,9 @@ namespace zoo_backend_vs.Controllers
     [Route("[controller]")]
     public class FacilityController : ControllerBase
     {
-        private readonly ApplicationDbContext _db;
+        private readonly ZooDBContext _db;
 
-        public FacilityController(ApplicationDbContext db)
+        public FacilityController(ZooDBContext db)
         {
             _db = db;
         }
@@ -49,8 +49,8 @@ namespace zoo_backend_vs.Controllers
 
     //public class FoodstandController1 : Controller
     //{
-    //    private readonly ApplicationDbContext _db;
-    //    public FoodstandController1(ApplicationDbContext db) 
+    //    private readonly ZooDBContext _db;
+    //    public FoodstandController1(ZooDBContext db) 
     //    {
     //        _db = db;
     //    }

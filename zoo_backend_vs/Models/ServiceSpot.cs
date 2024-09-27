@@ -18,5 +18,8 @@ namespace zoo_backend_vs.Models
         public string? S_Memo { get; set; }
         [Required]
         public string S_Pic01_URL { get; set; } = string.Empty;
+
+      
+
     }
 }

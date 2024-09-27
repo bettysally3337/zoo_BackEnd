@@ -1,0 +1,228 @@
+﻿@model zoo_backend_vs.Models.Plants
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Plants</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Name_Ch)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Name_Ch)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Summary)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Summary)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Keywords)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Keywords)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_AlsoKnown)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_AlsoKnown)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Geo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Geo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Location)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Location)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Name_En)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Name_En)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Name_Latin)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Name_Latin)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Family)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Family)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Genus)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Genus)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Brief)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Brief)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Feature)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Feature)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Function_Application)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Function_Application)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Code)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Code)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Pic01_ALT)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Pic01_ALT)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Pic01_URL)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Pic01_URL)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Pic02_ALT)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Pic02_ALT)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Pic02_URL)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Pic02_URL)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Pic03_ALT)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Pic03_ALT)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Pic03_URL)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Pic03_URL)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Pic04_ALT)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Pic04_ALT)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Pic04_URL)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Pic04_URL)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_pdf01_ALT)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_pdf01_ALT)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_pdf01_URL)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_pdf01_URL)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_pdf02_ALT)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_pdf02_ALT)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_pdf02_URL)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_pdf02_URL)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Voice01_ALT)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Voice01_ALT)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Voice01_URL)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Voice01_URL)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Voice02_ALT)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Voice02_ALT)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Voice02_URL)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Voice02_URL)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Voice03_ALT)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Voice03_ALT)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Voice03_URL)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Voice03_URL)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Vedio_URL)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Vedio_URL)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_Update)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_Update)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.F_CID)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.F_CID)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.idx">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
